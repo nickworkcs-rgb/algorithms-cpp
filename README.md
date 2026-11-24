@@ -1,5 +1,7 @@
 # algorithms-cpp
 
+![CI](https://github.com//algorithms-cpp/actions/workflows/ci.yml/badge.svg)
+
 Основные алгоритмы и структуры данных на C++23 с тестами (GoogleTest).
 
 ## Сборка и запуск тестов
