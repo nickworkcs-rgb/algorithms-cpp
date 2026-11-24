@@ -1,0 +1,22 @@
+# algorithms-cpp
+
+Основные алгоритмы и структуры данных на C++23 с тестами (GoogleTest).
+
+## Сборка и запуск тестов
+
+```bash
+cmake -S . -B build -DCMAKE_BUILD_TYPE=Debug
+cmake --build build
+ctest --test-dir build --output-on-failure
+```
+
+## Алгоритмы
+
+| Алгоритм | Время | Память | Код | Тесты |
+|----------|-------|--------|-----|-------|
+| Бинарный поиск | O(log n) | O(1) | [binary_search.hpp](algorithms/searching/binary_search.hpp) | [binary_search_test.cpp](tests/searching/binary_search_test.cpp) |
+
+## Структура
+
+- `algorithms/` — реализации (header-only шаблоны)
+- `tests/` — тесты GoogleTest
