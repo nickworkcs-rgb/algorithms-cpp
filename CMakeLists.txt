@@ -25,6 +25,7 @@ enable_testing()
 
 add_executable(tests
   tests/searching/binary_search_test.cpp
+  tests/sorting/bubble_sort_test.cpp
 )
 
 target_include_directories(tests PRIVATE ${CMAKE_SOURCE_DIR})

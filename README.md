@@ -17,7 +17,8 @@ ctest --test-dir build --output-on-failure
 | Алгоритм | Время | Память | Код | Тесты |
 |----------|-------|--------|-----|-------|
 | Бинарный поиск | O(log n) | O(1) | [binary_search.hpp](algorithms/searching/binary_search.hpp) | [binary_search_test.cpp](tests/searching/binary_search_test.cpp) |
-
+|----------|-------|--------|------|-------|
+| Пузырьковая сортировка | O(n^2) | O(1) | [bubble_sort.hpp](algorithms/sorting/bubble_sort.hpp) | [bubble_sort_test.cpp](tests/sorting/bubble_sort_test.cpp) |
 ## Структура
 
 - `algorithms/` — реализации (header-only шаблоны)
